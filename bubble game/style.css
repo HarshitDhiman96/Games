@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(143, 222, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.ptop{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(96, 153, 96);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 2.1rem;
+}
+.elem h4{
+    color: white;
+}
+.pbottom{
+    width: 100%;
+    height: calc(100% - 80px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.7em;
+    flex-wrap: wrap
+}
+.bubble{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble:hover{
+    background-color: rgb(76, 61, 61);
+    cursor: pointer;
+}
+#footer{
+    position: absolute;
+    bottom: 1%;
+}
+#footer button{
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 13px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 9px;
+
+}
